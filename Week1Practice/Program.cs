@@ -90,7 +90,11 @@ namespace Week1Practice
             while (while3 <= 30)
             {
                 Console.WriteLine(while3);
-                while3 += 2;
+                if (while3 % 2 == 0)
+                {
+                    Console.WriteLine(while3);
+                }
+                while3++;
             }
             // 4. Create a while loop that prints out the numbers from 100 to 75, only printing every 5th number (100, 95, 90, 85, 80, 75)
             while (while4 >= 75)
